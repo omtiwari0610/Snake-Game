@@ -1,0 +1,38 @@
+*{
+    background: url("/mycodes/snakegame/bg.jpg") ;
+}
+#mainboard{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+    height:90vh;
+    top : 5vh;
+    left:25vw;
+    right:25vw;
+    width: 50vw;
+    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    border:2px solid black;
+}
+.mainscore{
+    position: absolute;
+    top:5vh;
+    right:10vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
+.snake{
+    background : linear-gradient(red,purple);
+    border-radius: 10%;
+    border:2px solid black;
+}
+.food{
+    background: linear-gradient(green,yellow);
+    border-radius: 10%;
+    border:2px solid black;
+}
+.sbody{
+    background : linear-gradient(orange,aqua);
+    border-radius: 10%;
+    border:2px solid black;
+}
